@@ -9,7 +9,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 0;
         padding: 20px;
-        background-image: url("bg.avif");
+        background-image: url("advbg3.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
       }
@@ -19,6 +19,9 @@
         margin-bottom: 20px;
         word-spacing: 5px; /* word spacing */
         letter-spacing: 1px; /* character spacing */
+      }
+      .foot {
+        color: #64e2f8;
       }
 
       h1 {
@@ -32,7 +35,7 @@
 
       p {
         font-size: 1.5rem;
-        color: hsl(210, 100%, 50%); /* Indigo in HSL format */
+        color: hsl(256, 90%, 16%); /* Indigo in HSL format */
         animation: translate-animation 5s infinite; /* Animation with translation */
       }
 
@@ -60,19 +63,19 @@
       }
 
       .product-card:nth-child(1) {
-        background-color: #e0abc8;
+        background-color: #e0abc8a2;
       }
 
       .product-card:nth-child(2) {
-        background-color: rgb(236, 202, 137);
+        background-color: rgba(236, 201, 137, 0.699);
       }
 
       .product-card:nth-child(3) {
-        background-color: hsl(140, 70%, 60%);
+        background-color: hsla(140, 70%, 60%, 0.637);
       }
 
       .product-card:nth-child(4) {
-        background-color: #f38e96;
+        background-color: #f38e96a9;
       }
 
       .product-images {
@@ -80,12 +83,13 @@
       }
 
       .product-images img {
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 170px;
         object-fit: cover;
         margin-right: 60px;
-        border: 2px solid #ff69b4;
+        border: 2px solid #fcf938ea;
         border-radius: 5px;
+        border-width: thick;
       }
 
       .product-info {
@@ -127,7 +131,8 @@
         background-color: #25ad09;
       }
       .treat {
-        color: #a10c0cdc;
+        color: #64e2f8;
+        font-weight: bolder;
       }
       h3:active {
         color: red;
@@ -142,11 +147,12 @@
         box-shadow: 2px 2px 4px #888888; /* Text shadow */
       }
       .marquee {
-        color: #ad1111;
-        font-size: 1.2rem;
+        color: #4d0738;
+        font-size: 1.5rem;
         background-color: #e6d820de;
         padding: 10px;
         margin-bottom: 20px;
+        font-weight: bold;
       }
     </style>
   </head>
@@ -237,8 +243,8 @@
     </main>
 
     <footer>
-      <p>&copy; Sweet Indulgence by Pratheeba</p>
-      <p>Shop @ Pratheeba desserts!!!</p>
+      <p class="foot">&copy; Sweet Indulgence by Pratheeba</p>
+      <p class="foot">Shop @ Pratheeba desserts!!!</p>
     </footer>
   </body>
 </html>
